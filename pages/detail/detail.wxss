@@ -1,0 +1,21 @@
+.download{
+  float:left;
+  border-radius: 15rpx;
+  background-color: grey;
+  opacity:0.7;
+  color: white;
+  margin-top: -100rpx;
+  border:white;
+}
+.share{
+  float:right;
+  border-radius: 15rpx;
+  background-color: grey;
+  opacity:0.6;
+  color: white;
+  margin-top: -100rpx;
+}
+
+.btn_hover{
+  opacity: 0.2
+}

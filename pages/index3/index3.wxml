@@ -1,0 +1,17 @@
+<view class="container">
+  <swiper indicator-dots="true" circular="true" style="height: {{clientHeight?clientHeight+'px':'auto'}}">
+    <swiper-item wx:for="{{swipperList}}" wx:for-item="item" wx:key="index">
+      <view class="box" style="background:linear-gradient({{item.color}},rgba(202,202,210)">
+        <view class="title">{{item.title}}</view>
+        <view class="description">{{item.description}}</view>
+        <view class="name">- x.x -</view>
+
+        <view class="post">
+          <navigator open-type="navigate" url="../detail/detail?id={{item._id}}" style="height: {{clientHeight?clientHeight+'px':'auto'}}">
+            <image src="{{item.src}}" mode="widthFix"></image>
+          </navigator>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>

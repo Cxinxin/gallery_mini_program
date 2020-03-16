@@ -1,0 +1,4 @@
+<image-loader  default-image='../../loading.gif' mode='widthFix' original-image='{{postInfo.data.src}}'/>
+
+<button bindtap='downloadFile' data-url="{{postInfo.data.src}}" class="download" hover-class='btn_hover'>Download</button>
+  <button class="share" open-type="share" data-id="{{postInfo.data._id}}" hover-class='btn_hover'>Share</button>

@@ -1,0 +1,9 @@
+.container{
+  height: 100%;
+  text-align: center;
+  color:white;
+  border-radius: 15rpx
+}
+image{
+ width: 100%
+}
