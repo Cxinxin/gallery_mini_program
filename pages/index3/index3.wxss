@@ -37,4 +37,5 @@ swiper-item{
 image{
   width:80%;
   border-radius: 15rpx;
+  box-shadow: 8px 8px 10px rgba(85, 85, 85, 0.8);
 }
