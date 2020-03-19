@@ -16,7 +16,7 @@ Page({
   //get post 
   getSwipperList(){
     const that = this;
-    DB.orderBy('_id', 'desc').get({
+    DB.orderBy('createTime', 'desc').get({
       success(res) {
         console.log("query success", res.data);
         that.setData({
