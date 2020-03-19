@@ -7,10 +7,10 @@ addData(){
   DB.add({
     // data 字段表示需新增的 JSON 数据
     data: {
-      title: "kiki ya",
-      description: "learn cloud database",
-      src: "cloud://gallery-c7ts8.6761-gallery-c7ts8-1301572989/6.jpeg",
-      color: "rgba(28,28,62)",
+      title: "沉默",
+      description: "抑制不住的狂啸",
+      src: "cloud://gallery-c7ts8.6761-gallery-c7ts8-1301572989/abstract.jpg",
+      color: "rgba(140,80,65) ",
       createTime: new Date()
     },
      success(res) {

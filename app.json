@@ -1,9 +1,9 @@
 {
   "pages": [
+   
     "pages/index3/index3",
-    "pages/detail/detail",
-    "pages/data/data"
-
+    "pages/data/data",
+    "pages/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
